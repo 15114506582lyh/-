@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字符串</title>
+    <script>
+        /*
+        *   字符串(String)
+        *       - 在js中使用单引号或双引号来表示字符串
+        *       - 转义字符 \
+        *            \" --> :
+        *            \' -->'
+        *            \\ --> \
+        *            \t --> 制表符
+        *            \n --> 换行
+        *       - 模板字符串
+        *            - 使用反单引号来表示模板字符串
+        *            - 模板字符串可以嵌入变量
+        *            - 使用typeof检查一个字符串时会返回 string*/
+        let a = 'Hello'
+        a = "你好"
+        a = '这是一个"字符串"'
+        a = "这是一个\"字符\\串串\""
+        let b = "哈哈哈\t酷\n酷酷"
+        let c = "今天\
+        sdad"
+        c = `今天
+        天气
+        真
+        不错`
+        let name = "李宇航"
+        let str = `你好，${name}`
+        let d = 10
+
+        console.log(a)
+        console.log(b)
+        console.log(c)
+        console.log(str)
+        console.log(d)
+        console.log(`d = ${d}`)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

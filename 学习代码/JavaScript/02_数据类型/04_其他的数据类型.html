@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>其他的数据类型</title>
+    <script>
+        /*
+        *   布尔值(Boolean)
+        *       - 布尔值主要用来进行逻辑判断
+        *       - 布尔值只有两个 true 和 false
+        *       - 使用typeof检查一个布尔值时会返回 boolean
+        *
+        *   空值(Null)
+        *       - 空值用来表示空对象
+        *       - 使用typeof检查一个空值时会返回object
+        *       - 使用typeof无法检查空值
+        *
+        *   未定义(Undefined)
+        *       - 当声明一个变量而没有赋值时，它的值就是Undefined
+        *       - Undefined类型的值只有一个就是Undefined
+        *       - 使用typeof检查一个Undefined时会返回Undefined
+        *
+        *   符号(Symbol)
+        *       - 用来创建一个唯一标识
+        *       - 使用typeof检查一个Symbol时会返回Symbol
+        */
+        let bool = true
+        console.log(bool)
+        console.log(typeof bool)
+
+        let num = 1
+        console.log(num)
+
+        let b
+        console.log(b)
+        console.log(typeof b)
+
+        let c = Symbol() // 调用Symbol()创建了一个符号
+        console.log(c)
+        console.log(typeof c)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
